@@ -22,7 +22,8 @@ for row in new_list:
         img_url.append(row['sizes'][i]['url'])
     url_.append(img_url[img_h_w.index(max(img_h_w))])
 
-token = 'y0_AgAAAAAN_9ogAADLWwAAAADy38jJVqz6RKjiRm2fWoboY2awwuaFcS8'
+# Данные по Яндекс Диск Токен и папка, значение Токена удалили, для текста нужно добавить
+token = ''
 folder = 'vk_foto'
 class Ya:
     url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
